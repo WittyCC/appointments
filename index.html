@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Appointment Scheduler</h1>
+        <div id="blanks">
+          <form>
+            <div class="name">
+              <label for="name">Enter your name</label>
+              <input id="username" class="form-control" type="text">
+            </div>
+            <div class="desc">
+              <label for="appointDesc">Enter a description of your appoinment</label>
+              <input id="appointDescription" class="form-control" type="text">
+            </div>
+            <div class="date">
+              <label for="date">Enter desired date</label>
+              <input id="monthDay" class="form-control" type="text">
+            </div>
+            <div class="time">
+              <label for="date">Enter desired time</label>
+              <input id="hour" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+        <div id="results">
+          <h1>Your booking was successful</h1>
+          <p><span id="name"></span>, you are scheduled for <span id="date"></span> at <span id="time"></span>.</p>
+        </div>
+      </div>
+    </body>
+  </html>
